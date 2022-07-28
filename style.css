@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+:root {
+  --primary-color: "";
+}
+/* Navigation Bar */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightcoral;
+  padding: 24px 24px;
+}
+
+.nav-title {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding-left: 16px;
+  font-size: 16px;
+}
+
+li:first-child {
+  padding-left: 0;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+/* Input Elements */
+
+.input-label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.input {
+  display: block;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin-bottom: 40px;
+}
+
+/* CTA Buttons */
+
+.button {
+  font-size: 20px;
+  padding: 12px 20px;
+  border: none;
+  background-color: lightcoral;
+  border-radius: 5px;
+}
+
+/* display message */
+
+.message {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+/* button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
