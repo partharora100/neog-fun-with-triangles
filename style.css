@@ -45,6 +45,7 @@ li a {
   display: block;
   font-size: 20px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .input {
@@ -75,6 +76,15 @@ li a {
 
 /* button container */
 .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  padding: 40px;
+}
+
+.box {
   display: flex;
   justify-content: center;
 }
